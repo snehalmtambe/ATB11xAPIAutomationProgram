@@ -1,8 +1,8 @@
-package org.example;
+package org.example.ex_01_RA_Basics;
 
 import io.restassured.RestAssured;
 
-public class Lab_01RA {
+public class APITesting_Lab_01RA {
     public static void main(String[] args) {
 
         RestAssured.given()
