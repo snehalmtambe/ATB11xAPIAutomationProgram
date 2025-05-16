@@ -1,0 +1,15 @@
+Plain old Java object classes (POJO)
+
+1. Manual : Create separate class if there are following condition
+    a. {} this represents class, so create class where you can see {} in request body
+    b. After creating class, create private variable and achieve encapsulation using getter and setter methods
+
+2. Using tools :
+    - there is another method where we can create pojo using tool: https://www.jsonschema2pojo.org/
+
+
+3. Using AI:
+    - you can generate POJO file using chatGPT
+       https://chatgpt.com/c/6826df8b-e694-8009-85b2-b18e7558d756
+
+

@@ -1,4 +1,4 @@
-package org.example.ex_06_TestAssertion;
+package org.example.ex_07_Payload_Management.String;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
@@ -9,11 +9,11 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-import org.assertj.core.api.WithAssertions;
-import static org.assertj.core.api.Assertions.*;
 import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class APITesting027_RestAssured_TestNG_AssertJ_Assertions {
 
